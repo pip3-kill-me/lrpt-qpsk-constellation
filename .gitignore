@@ -1,0 +1,8 @@
+# Virtual environment
+venvprojeto/
+.venvprojeto/
+.vscode/
+.idea/
+*.pyc
+__pycache__/
+*.log
