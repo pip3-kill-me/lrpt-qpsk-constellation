@@ -28,7 +28,7 @@ def plot_qpsk_constellation(I, Q):
     plt.show()
 
 def main():
-    file_path = 'LRPT.wav'
+    file_path = 'qpsk_signal.wav'
 
     sample_rate, data = read_audio(file_path)
 
@@ -39,3 +39,4 @@ def main():
 if __name__ == "__main__":
     main()
 #test
+
